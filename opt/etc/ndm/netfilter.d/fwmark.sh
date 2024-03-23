@@ -5,7 +5,7 @@
 [ -z "$(iptables -t mangle -L | grep unblock)" ] || exit 0
 
 
-# May work before the other script?
+# May work before the other script? Maybe not required.
 if [ -z "$(ipset list | grep unblock)" ]
 then
     logger "|=== > Unblock: create ip table"

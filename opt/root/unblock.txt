@@ -1,0 +1,18 @@
+# Domain
+
+chat.openai.com
+cdn.oaistatic.com
+ab.chatgpt.com
+widget.intercom.io
+i2.wp.com
+js.intercomcdn.com
+api-iam.intercom.io
+
+# IP
+# 0.0.0.0
+
+# CIDR
+# 0.0.0.0/0
+
+# IP range
+# 0.0.0.0-0.0.0.255
