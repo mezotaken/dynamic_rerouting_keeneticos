@@ -40,8 +40,6 @@ if __name__ == '__main__':
         if log_message["method"] == "Network.responseReceived":
             url = log_message['params']['response']['url']
             domain = urlparse(url).netloc
-            if domain.startswith('www.'):
-                domain = domain[4:]
             if len(domain) > 0 and '.' in domain:
                 res.add(domain)
 
