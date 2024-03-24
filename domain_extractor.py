@@ -10,7 +10,9 @@ from selenium import webdriver
 OUTFILE = './domains.txt'
 CHROMEDRIVER = './chromedriver.exe'
 TO_EXCLUDE = [
-    'google.com'
+    'google.com',
+    'discord.com',
+    'youtube.com',
 ]
 
 if __name__ == '__main__':
