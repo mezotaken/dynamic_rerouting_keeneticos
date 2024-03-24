@@ -25,10 +25,10 @@ if __name__ == '__main__':
     service = webdriver.ChromeService(executable_path=CHROMEDRIVER)
     driver=webdriver.Chrome(options=options,service=service)  
 
-    print(f'Use the site in Chrome window as long as you like, press Enter to record all visited domains in {OUTFILE}.')
+    print(f'Use the site in Chrome window as long as you like, press ~ to record all visited domains in {OUTFILE}.')
 
     while True:
-        if keyboard.is_pressed('enter'):
+        if keyboard.is_pressed('asciitilde'):
             break
 
     logs = driver.get_log("performance")
